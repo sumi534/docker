@@ -1,0 +1,15 @@
+Pipeline{
+   agent { dockerfile true}
+   stages
+    {
+       stage('test')
+       {
+         steps
+          {
+           sh "python --version"
+           sh "php --version"
+           }
+         }
+      }
+   }
+
