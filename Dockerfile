@@ -1,3 +1,3 @@
 FROM ubuntu
 RUN apt-get install python
-RUN apt-get install php
+RUN apt-get install maven
