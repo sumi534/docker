@@ -8,6 +8,7 @@ pipeline
          steps
           {
            sh "cat /etc/os-release"
+           sh "netstat -lntp"
           }
          }
       }
