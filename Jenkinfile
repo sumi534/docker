@@ -1,5 +1,4 @@
-pipeline
-{
+Pipeline{
    agent { dockerfile true}
    stages
     {
@@ -7,10 +6,9 @@ pipeline
        {
          steps
           {
+           sh "python --version"
            sh "php --version"
-           sh "jenkins --version"
            }
          }
       }
    }
-
