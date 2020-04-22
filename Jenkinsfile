@@ -7,9 +7,8 @@ pipeline
        {
          steps
           {
-           sh "php --version"
-           sh "jenkins --version"
-           }
+           sh "cat /etc/os-release"
+          }
          }
       }
    }

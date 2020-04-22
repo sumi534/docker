@@ -1,4 +1,5 @@
 FROM ubuntu
-RUN apt-get install php
-RUN apt-get install jenkins
+RUN apt-get update
+RUN echo "hellow sumithra"
+CMD ["echo","hello"]
 
